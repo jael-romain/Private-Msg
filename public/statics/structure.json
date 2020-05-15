@@ -1,0 +1,41 @@
+{
+    "users":{
+        "userid1":{
+            "name" : "Jael",
+            "email" : "jael@uwechat.com",
+            "online" : true
+        },
+        "userid2":{
+            "name" : "Danielle",
+            "email" : "daneille@uwechat.com",
+            "online" : true
+        }
+    },
+
+    "chats":{
+        "userid1":{
+            "userid2":{
+                "messageid1":{
+                    "msg" : "Jael...!",
+                    "sender": "no"
+                },
+                "messageid2":{
+                    "msg" : "Danielle....!",
+                    "sender": "yes"
+                }
+            }
+        },
+        "userid2":{
+            "userid1":{
+                "messageid1":{
+                    "msg" : "Jael...!",
+                    "sender": "yes"
+                },
+                "messageid2":{
+                    "msg" : "Danielle....!",
+                    "sender": "no"
+                }
+            }
+        }
+    }
+}
