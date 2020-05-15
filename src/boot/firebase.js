@@ -10,13 +10,13 @@ import "firebase/database";
 
   // Your web app's Firebase configuration
   var firebaseConfig = {
-    apiKey: "AIzaSyBkyhXZX19Gpj69KjLDrA24ZurCh9NDJ60",
-    authDomain: "chat-e0c59.firebaseapp.com",
-    databaseURL: "https://chat-e0c59.firebaseio.com",
-    projectId: "chat-e0c59",
-    storageBucket: "chat-e0c59.appspot.com",
-    messagingSenderId: "1065778268006",
-    appId: "1:1065778268006:web:357a3dd7faf3c5b36aeaa7"
+    apiKey: "key",
+    authDomain: "domain",
+    databaseURL: "url",
+    projectId: "id",
+    storageBucket: "bucket",
+    messagingSenderId: "sender_id",
+    appId: "id"
   };
   // Initialize Firebase
   let firebaseApp = firebase.initializeApp(firebaseConfig);
